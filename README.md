@@ -12,9 +12,8 @@ We don't have npm module yet. It is in my TODO list, but for now you will have t
 First you need to install the module on both server and client machines using:
 ```
 git clone https://github.com/elsix/vmfs-http-sync.git
-cd vmfs-http-sync/ && npm install
+cd vmfs-http-sync/ && sudo npm install -g
 ```
-Or installing it globally with ```sudo npm install -g``` on both client and server machines.
 
 After that you need to start the server with something like:
 ```
